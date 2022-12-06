@@ -8,6 +8,13 @@
 // import 'streams/from_callable.dart';
 // import 'streams/merge.dart';
 // import 'streams/race.dart';
+import 'streams/defer.dart';
+import 'streams/range.dart';
+import 'streams/repeat.dart';
+import 'streams/retry.dart';
+import 'streams/retry_when.dart';
+import 'streams/sequence_equal.dart';
+// import 'streams/never.dart';
 
 void main() {
   // runCombineLastest();
@@ -18,4 +25,10 @@ void main() {
   // runFromCallable();
   // runMerge();
   // runRace();
+  // runNever();
+  // runRange();
+  // runRepeat();
+  // runRetry();
+  // runRetryWhen();
+  runSequenceEqual();
 }
